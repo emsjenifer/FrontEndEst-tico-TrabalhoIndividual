@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+}
+
+p {
+  line-height: 22px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.folder {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img-post-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/manny-moreno-CJZXBsXXlDI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ff7096;
+  box-sizing: border-box;
+  padding: 20px;
+  min-width: calc(1024px / 4);
+}
+
+.post {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+.post-1 {
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-1 > * {
+  flex: 1;
+}
+
+.post-2 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-post-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/andre-hunter-ndyfVMhl8qI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  color: #ff7096;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.img {
+  flex: 3;
+  border: 1px solid;
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  padding: 15px 0 15px;
+  justify-content: space-between;
+}
+
+.navbar li {
+  display: inline;
+  padding: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 25px;
+}
+
+hr {
+  margin: 0 10px 0 10px;
+  color: dark gray;
+}
+
+.logo {
+  width: 180px;
+  text-align: center;
+}
+
+.menu-list {
+}
+
+.menu-user {
+  width: 180px;
+  text-align: center;
+}
+
+.notification {
+  background-color: black;
+  height: 40px;
+}
+
+.notification h2 {
+  padding-top: 10px;
+  margin: 0;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  color: #ff7096;
+}
+
+.message {
+  height: 100px;
+  background-color: #fff;
+  padding: 40px 5px 60px;
+}
+
+.text-group {
+  padding: 30px 5px 20px;
+}
+
+.text-group h2 {
+  padding-bottom: 15px;
+}
+
+.text-and-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-and-button .text {
+  flex: 2;
+  padding: 10px;
+}
+
+.filter-button {
+  padding: 6px;
+  width: 100px;
+  border-radius: 16px;
+  margin-left: 10px;
+  background-color: #ff7096;
+  border: none;
+  cursor: pointer;
+}
+
+.products {
+  height: 500px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.products .container {
+  margin: 0 auto;
+}
+
+.products .top-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.products h3 {
+  margin: 0;
+}
+
+.products .filter-buttons {
+  display: flex;
+}
+
+.products .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products .item {
+  width: 20%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.products img {
+  width: 210px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.products a {
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  text-align: initial;
+  display: block;
+  margin-bottom: 5px;
+}
