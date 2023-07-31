@@ -22,22 +22,6 @@ p {
   margin-top: 20px;
 }
 
-.img-post-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./assets/manny-moreno-CJZXBsXXlDI-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: #ff7096;
-  box-sizing: border-box;
-  padding: 20px;
-  min-width: calc(1024px / 4);
-}
-
 .post {
   display: flex;
   flex: 1;
@@ -72,6 +56,22 @@ p {
   color: #ff7096;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.img-post-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/manny-moreno-CJZXBsXXlDI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ff7096;
+  box-sizing: border-box;
+  padding: 20px;
+  min-width: calc(1024px / 4);
 }
 
 .img {
